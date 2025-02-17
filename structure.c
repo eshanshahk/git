@@ -9,7 +9,7 @@ int main()
 {
     struct student s;
     int i;
-    float sum=0;
+    float sum=0,avg=0;
     printf("Enter your name & roll no \n");
     scanf("%s %d", s.name, &s.r_no);
     printf("Enter your marks \n");
@@ -21,7 +21,8 @@ int main()
     {
         sum = sum + s.mark[i];
     }
+        avg=sum/3;
     printf("Student Details are : \n");
-    printf("Name =%s \t Rollno=%d \t Total Mark=%f",s.name,s.r_no,sum);
+    printf("Name =%s \t Rollno=%d \t Total Mark=%f \t Avg Mark=%f",s.name,s.r_no,sum),avg;
     return 0;
 }
