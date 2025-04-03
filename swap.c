@@ -13,5 +13,6 @@ int main()
   int a = 5, b = 6;
   printf("BEFORE SWAPPING A=%d \t B=%d \n", a, b);
   swap(&a, &b);
+  
   return 0;
 }
