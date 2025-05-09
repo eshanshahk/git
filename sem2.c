@@ -22,6 +22,7 @@ int main()
         printf("Enter dob");
         scanf("%d", &s[n].dob);
     }
+    
     for (int n = 0; n < i; n++)
     {
         printf("Name = %s \t Rollno = %d \t Dob = %d  \n", s[n].name, s[n].rollno, s[n].dob);
