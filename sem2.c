@@ -17,6 +17,7 @@ int main()
     {
         printf("Enter name");
         scanf("%s", s[n].name);
+        
         printf("Enter rollno");
         scanf("%d", &s[n].rollno);
         printf("Enter dob");
