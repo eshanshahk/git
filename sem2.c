@@ -20,6 +20,7 @@ int main()
         
         printf("Enter rollno");
         scanf("%d", &s[n].rollno);
+        
         printf("Enter dob");
         scanf("%d", &s[n].dob);
     }
