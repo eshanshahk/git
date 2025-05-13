@@ -23,6 +23,7 @@ int main()
         
         printf("Enter dob");
         scanf("%d", &s[n].dob);
+        
     }
     
     for (int n = 0; n < i; n++)
