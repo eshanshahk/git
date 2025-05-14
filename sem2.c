@@ -13,6 +13,7 @@ int main()
     printf("enter n no of students");
     scanf("%d", &i);
     struct school s[i];
+    
     for (int n = 0; n < i; n++)
     {
         printf("Enter name");
