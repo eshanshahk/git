@@ -11,6 +11,7 @@ int main()
 {
     int i;
     printf("enter n no of students");
+    
     scanf("%d", &i);
     struct school s[i];
     
